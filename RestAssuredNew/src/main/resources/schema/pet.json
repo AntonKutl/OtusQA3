@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "photoUrls": {
+      "type": "array",
+      "items": {}
+    },
+    "tags": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "id",
+    "photoUrls",
+    "tags"
+  ]
+}
